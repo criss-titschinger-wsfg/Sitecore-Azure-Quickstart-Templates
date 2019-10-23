@@ -858,6 +858,7 @@
       "properties": {
         "name": "[variables('repHostingPlanNameTidy')]"
       },
+      "location": "[parameters('location')]",
       "tags": {
         "provider": "[variables('sitecoreTags').provider]",
         "logicalName": "[variables('sitecoreTags').rep]"
